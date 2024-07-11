@@ -22,7 +22,8 @@ export default function Index() {
 
   return(
     <View className="flex-1 items-center justify-center px-5">
-      <Image  source={require("@/assets/logo.png")} className='h-8' resizeMode='contain' />
+      <Image source={require("@/assets/logo.png")} className='h-8' resizeMode='contain' />
+      <Image source={require("@/assets/bg.png")} className='absolute'/>
 
       <Text className='text-zinc-400 font-regular text-center text-lg mt-3'>Convide seus amigos e planeje sua{"\n"}próxima viagem</Text>
       
