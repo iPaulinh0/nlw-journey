@@ -1,7 +1,7 @@
 import { colors } from '@/styles/colors';
 import { View, Text, Image } from 'react-native';
 import { Input } from '@/components/input';
-import { MapPin, Calendar as IconCalendar } from 'lucide-react-native'
+import { MapPin, Calendar as IconCalendar, Settings2 } from 'lucide-react-native'
 import { Button } from '@/components/button';
 
 export default function Index() {
@@ -24,8 +24,9 @@ export default function Index() {
         </Input>
 
         <View className='border-b py-3 border-zinc-800'>
-          <Button>
+          <Button variant='secondary'>
             <Button.Title>Alterar local/data</Button.Title>
+            <Settings2 color={colors.zinc[200]} size={20}/>
           </Button>
         </View>
 
